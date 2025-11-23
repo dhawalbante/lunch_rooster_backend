@@ -19,6 +19,7 @@ app.use('/api/auth', require('./routes/auth')); // Add this line
 app.use('/api/users', require('./routes/users'));
 app.use('/api/assignments', require('./routes/assignments'));
 app.use('/api/admin', require('./routes/admin'));
+app.use('/api/chat', require('./routes/chat'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {
